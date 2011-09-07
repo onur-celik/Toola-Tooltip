@@ -24,3 +24,19 @@
 		line-height:15px;
 	}
   @blog http://blog.theylmz.com
+  
+  /**
+  *$(document).ready();
+  *içerisinde 
+  *$(document).ready(function(){
+  *$tooltip('tooltipleriolacaklarýnsiniflarininadi','tooltipidsi');
+  *});
+  *þeklinde kullanabilirsiniz.
+  *
+  *Css ayarlarýný kendiniz yapýcanýz zati. mesala 
+  *<a href="#" class="link tooltips" alt="Buradaki yazý tooltip olacak">Buraya</a> 
+  *þeklindeki baðlantýlarý oluþturun. her oluþturduðunuza tooltips sýnýfýný verin. 
+  *sonra body etiketinden önce <div id="tooltipbox"></div>  ekleyin. 
+  *css ayarlamalarýný yapýn bu kutu için. 
+  *sonra da $tooltip('tooltips','tooltipbox');  diye baþlatýn.
+  **/
