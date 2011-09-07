@@ -27,16 +27,16 @@
   
   /**
   *$(document).ready();
-  *içerisinde 
+  *iÃ§erisinde 
   *$(document).ready(function(){
-  *$tooltip('tooltipleriolacaklarınsiniflarininadi','tooltipidsi');
+  *$tooltip('tooltipleriolacaklarÄ±nsiniflarininadi','tooltipidsi');
   *});
-  *şeklinde kullanabilirsiniz.
+  *ÅŸeklinde kullanabilirsiniz.
   *
-  *Css ayarlarını kendiniz yapıcanız zati. mesala 
-  *<a href="#" class="link tooltips" alt="Buradaki yazı tooltip olacak">Buraya</a> 
-  *şeklindeki bağlantıları oluşturun. her oluşturduğunuza tooltips sınıfını verin. 
-  *sonra body etiketinden önce <div id="tooltipbox"></div>  ekleyin. 
-  *css ayarlamalarını yapın bu kutu için. 
-  *sonra da $tooltip('tooltips','tooltipbox');  diye başlatın.
+  *Css ayarlarÄ±nÄ± kendiniz yapÄ±canÄ±z zati. mesala 
+  *<a href="#" class="link tooltips" alt="Buradaki yazÄ± tooltip olacak">Buraya</a> 
+  *ÅŸeklindeki baÄŸlantÄ±larÄ± oluÅŸturun. her oluÅŸturduÄŸunuza tooltips sÄ±nÄ±fÄ±nÄ± verin. 
+  *sonra body etiketinden Ã¶nce <div id="tooltipbox"></div>  ekleyin. 
+  *css ayarlamalarÄ±nÄ± yapÄ±n bu kutu iÃ§in. 
+  *sonra da $tooltip('tooltips','tooltipbox');  diye baÅŸlatÄ±n.
   **/
