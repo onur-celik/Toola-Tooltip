@@ -44,9 +44,9 @@ $tooltip = function(el,tipelid){
             $("#"+tipelid).css('top',top+16);
         })    
         $("#"+tipelid).html(title);
-        $("#"+tipelid).fadeIn();
+        $("#"+tipelid).show();
     });
     $("."+el).live('mouseout',function(){
-        $("#"+tipelid).fadeOut();
+        $("#"+tipelid).hide();
     })
 }
