@@ -1,7 +1,7 @@
 author Emre YILMAZ
 date 07/09/2011 11:25
 name Toola Tooltip Function 
-usage 
+usage::
 	<html>
 	<head>
 	<title>Toola Test</title>
