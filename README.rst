@@ -1,8 +1,17 @@
- @author Emre YILMAZ
- @date 07/09/2011 11:25
- @name Toola Tooltip Function 
- @usage $tooltip(tooltipsclassname,tooltipboxid);
- @desc don't forget styling your tooltipbox,importing jquery
+ author:: Emre YILMAZ
+ date:: 07/09/2011 11:25
+ name:: Toola Tooltip Function 
+ usage:: 
+	<script src="tooltip.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$tooltip('tooltipClass','tooltipBoxID');
+		});
+	</script>
+	
+...note::
+	Don't forget styling your tooltipbox,importing jquery
+	
  @example-css 
 	.tooltip{
 	position:relative;
