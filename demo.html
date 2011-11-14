@@ -7,14 +7,28 @@
 	<script type="text/javascript">
 		$(document).ready(function(){
 			$tooltip('tooltipClass','tooltipBoxID');
+			$tooltip('tooltipClass2','tooltipBoxID2');
 		});
 	</script>
+    <style>
+        body * {
+            font-family:"lucida grande", tahoma, verdana, arial, sans-serif;
+            font-size:12px;
+        }
+        #linkContainer {
+            width:150px;
+            margin:100px auto;
+        }
+    </style>
 	</head>
 	<body>
-		<a href="#" class="tooltipClass" alt="This text is showing each mouseover. Also this text may be <b>HTML</b> format">Example Site</a>
-		
+        <div id="linkContainer">
+            <a href="#" class="tooltipClass" alt="This text is showing each mouseover. Also this text may be <b>HTML</b> format">Example 1</a></br></br></br>
+            <a href="#" class="tooltipClass2" alt="This text is showing each mouseover. Also this text may be <b>HTML</b> format">Example 2</a>
+        </div>
 		<!--Must add this div, last line your code-->
 		<div id="tooltipBoxID"></div>
+		<div id="tooltipBoxID2"></div>
 		<!--/-->
 	</body>
 	</html>
