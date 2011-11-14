@@ -1,6 +1,9 @@
 author Emre YILMAZ
+
 date 07/09/2011 11:25
+
 name Toola Tooltip Function 
+
 usage::
 	<html>
 	<head>
@@ -23,29 +26,29 @@ usage::
 	</html>
 
 	
-...note::
+..note::
 	Don't forget styling your tooltipbox,importing jquery
 
 
-Example-css(tooltip.css):: 
-							.tooltipClass{
-							position:relative;
-							}
-							#tooltipBoxID{
-							position:absolute;
-							top:25px;
-							left:4px;
-							border:1px solid #ccc;
-							background:#fff6b6;
-							padding:2px 5px;
-							display:none;
-							z-index: 20;
-							font-size:10px;
-							text-decoration: none;
-							color:#484848;
-							min-width: 20px;
-							min-height: 10px;
-							line-height:15px;
-							}
+Example-css(tooltip.css) :: 
+	.tooltipClass{
+	position:relative;
+	}
+	#tooltipBoxID{
+	position:absolute;
+	top:25px;
+	left:4px;
+	border:1px solid #ccc;
+	background:#fff6b6;
+	padding:2px 5px;
+	display:none;
+	z-index: 20;
+	font-size:10px;
+	text-decoration: none;
+	color:#484848;
+	min-width: 20px;
+	min-height: 10px;
+	line-height:15px;
+	}
 
 Blog: http://blog.theylmz.com
