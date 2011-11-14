@@ -12,6 +12,7 @@ usage::
 	<head>
 	<title>Toola Test</title>
 	<link rel="stylesheet" type="text/css" href="tooltip.css"/>
+	<script src="jquery-1.7.min.js"></script>
 	<script src="tooltip.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){
@@ -20,7 +21,7 @@ usage::
 	</script>
 	</head>
 	<body>
-		<a href="#" class="tooltip" alt="This text is showing each mouseover. Also this text may be <b>HTML</b> format">Example Site</a>
+		<a href="#" class="tooltipClass" alt="This text is showing each mouseover. Also this text may be <b>HTML</b> format">Example Site</a>
 		
 		<!--Must add this div, last line your code-->
 		<div id="tooltipBoxID"></div>
