@@ -1,22 +1,37 @@
- author:: Emre YILMAZ
- date:: 07/09/2011 11:25
- name:: Toola Tooltip Function 
- usage:: 
+author Emre YILMAZ
+date 07/09/2011 11:25
+name Toola Tooltip Function 
+usage 
+	<html>
+	<head>
+	<title>Toola Test</title>
+	<link rel="stylesheet" type="text/css" href="tooltip.css"/>
 	<script src="tooltip.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){
 			$tooltip('tooltipClass','tooltipBoxID');
 		});
 	</script>
+	</head>
+	<body>
+		<a href="#" class="tooltip" alt="This text is showing each mouseover. Also this text may be <b>HTML</b> format">Example Site</a>
+		
+		<!--Must add this div, last line your code-->
+		<div id="tooltipBoxID"></div>
+		<!--/-->
+	</body>
+	</html>
+
 	
 ...note::
 	Don't forget styling your tooltipbox,importing jquery
-	
- @example-css 
-	.tooltip{
+
+
+Example-css(tooltip.css):: 
+	.tooltipClass{
 	position:relative;
 	}
-	#tooltip{
+	#tooltipBoxID{
 		position:absolute;
 		top:25px;
 		left:4px;
@@ -32,20 +47,5 @@
 		min-height: 10px;
 		line-height:15px;
 	}
-  @blog http://blog.theylmz.com
-  
-  /**
-  *$(document).ready();
-  *içerisinde 
-  *$(document).ready(function(){
-  *$tooltip('tooltipleriolacaklarınsiniflarininadi','tooltipidsi');
-  *});
-  *şeklinde kullanabilirsiniz.
-  *
-  *Css ayarlarını kendiniz yapıcanız zati. mesala 
-  *<a href="#" class="link tooltips" alt="Buradaki yazı tooltip olacak">Buraya</a> 
-  *şeklindeki bağlantıları oluşturun. her oluşturduğunuza tooltips sınıfını verin. 
-  *sonra body etiketinden önce <div id="tooltipbox"></div>  ekleyin. 
-  *css ayarlamalarını yapın bu kutu için. 
-  *sonra da $tooltip('tooltips','tooltipbox');  diye başlatın.
-  **/
+
+Blog: http://blog.theylmz.com

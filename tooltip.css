@@ -1,19 +1,19 @@
-.tooltip{
-    position:relative;
-}
-#tooltip{
-    position:absolute;
-    top:25px;
-    left:4px;
-    border:1px solid #ccc;
-    background:#fff6b6;
-    padding:2px 5px;
-    display:none;
-    z-index: 20;
-    font-size:10px;
-    text-decoration: none;
-    color:#484848;
-    min-width: 20px;
-    min-height: 10px;
-    line-height:15px;
+.tooltipClass{
+	position:relative;
+	}
+#tooltipBoxID{
+	position:absolute;
+	top:25px;
+	left:4px;
+	border:1px solid #ccc;
+	background:#fff6b6;
+	padding:2px 5px;
+	display:none;
+	z-index: 20;
+	font-size:10px;
+	text-decoration: none;
+	color:#484848;
+	min-width: 20px;
+	min-height: 10px;
+	line-height:15px;
 }
